@@ -28,6 +28,8 @@ jobs:
         run: |
           mkdir www
           cp db/frontEndmobile.html www/index.html
+          mkdir dat
+          cp db/frontEndmobile.html dat/index.html
           cp db/logo.gif www/logo.gif
           cp db/radar.gif www/radar.gif
 
